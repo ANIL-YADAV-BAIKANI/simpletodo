@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-color: #ffc2a0;
+  padding: 25px;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+.heading {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #ff8542;
+}
+.list-items {
+  margin: 0px;
+  padding: 0px;
+}
+@media all and (min-width: 576px) {
+  .bg-container {
+    padding: 25px;
+  }
+  .card-container {
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 30px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+}
+@media all and (min-width: 576px) {
+  .bg-container {
+    padding: 30px;
+  }
+  .card-container {
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 120px;
+  }
+  .heading {
+    font-size: 45px;
+    margin-bottom: 55px;
+  }
+}
